@@ -31,9 +31,9 @@ class Pegawai {
 
 public class Main {
     public static void main(String[] args) {
-        Pegawai pegawai_1 = new Pegawai("Ulung Briansyah Putra", "CEO", 10, 3500000);
+        Pegawai pegawai_1 = new Pegawai("Adam", "Dosen", 10, 3500000);
         pegawai_1.display();
-        pegawai_1.setPajak(75);
+        pegawai_1.setPajak(20);
         pegawai_1.display();
     }
 }
